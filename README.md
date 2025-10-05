@@ -1,12 +1,15 @@
 # z-poweroff_remote
 Petit serveur web tout simple avec un bouton pour éteindre une machine à distance
 
-zf250824.1755, zf250831.2305
+zf250824.1755, zf251005.1220
+
+
+## Installation
+git clone git@github.com:zuzu59/z-poweroff_remote.git
 
 
 ## Utilisation depuis une console
-
-python3 poweroff_web.py
+python3 /root/z-poweroff_remote/poweroff_web.py
 
 
 ## Utilisation depuis le crontab
