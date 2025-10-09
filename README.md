@@ -1,7 +1,7 @@
 # z-poweroff_remote
 Petit serveur web tout simple avec un bouton pour éteindre une machine à distance
 
-zf250824.1755, zf251005.1220
+zf250824.1755, zf251009.1641
 
 
 ## Installation
@@ -19,7 +19,7 @@ crontab -e
 
 et ajouter cette ligne
 
-@reboot /usr/bin/python3 /root/z-poweroff_remote/poweroff_web.py > /root/sortie.log 2> /root/erreurs.log &
+@reboot /usr/bin/python3 /root/z-poweroff_remote/poweroff_web.py > /root/sortie.log 2> /root/z-poweroff_remote-erreurs.log &
 
 
 ## Pour arrêter la machine
